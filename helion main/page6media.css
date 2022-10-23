@@ -1,0 +1,152 @@
+@media screen and (max-width:1000px) {
+    .bwrotate{
+        display: none;
+    }
+
+    
+}
+@media screen and (max-width:800px) {
+    .bw{
+        padding-left: 20px;
+    }
+    .bw>p{
+        font-size: 17px;
+        }
+    .bw>h1{
+        font-size: 37px;
+    }
+    .globel{
+        width: 150px;
+        margin-top: 30px;
+    }
+    #sec-1{
+        padding: 100px 50px;
+    }
+    .sec-1cards{
+        width: 100%;
+    }
+    .sec-3icons{
+        display: none;
+    }
+    .sec-4l{
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .sec-5l>h1{
+        padding: 0;
+        font-size: 17px;
+    }
+    .sec-5cards{
+        width: 100%;
+    }
+    #sec-6{
+        border: 1px solid #000;
+        padding: 50px 0px;
+        height: 50vh;
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows:20vh 20vh;
+        grid-column-gap: 30px;
+        justify-content: center;
+    }
+    .sec-6child{
+        /* border: 1px solid #000; */
+        /* height: 25vh; */
+       
+        
+      
+    }
+    #sec-7{
+        justify-content: start;
+        padding: 20px;
+      
+
+    }
+    #sec-7>h1{
+        width: 100%;
+        font-size: 20px;
+    }
+    .sec-2left{
+        width: 100%;
+    }
+    .sec2right{
+        height: 50vh;
+    }
+    #sec-2>img{
+        display: none;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .bw>h1{
+        font-size: 20px;
+    }
+    .globel{
+        width: 100px;
+        height: 30px;
+        margin-top: 30px;
+    }
+    .sec-3header{
+        padding: 20px 50px;
+    }
+    .sec-3header>h1{
+        font-size: 20px;
+    }
+    .sec-3slider{
+        width: 400%;
+      
+        height: 40vh;
+         animation: sliding2 10s linear infinite ; 
+    }
+     @keyframes sliding2 {
+        0%{
+            margin-left: -35%;
+        }
+        28.33%{
+            margin-left: -35%;
+        }
+        33.33%{
+            margin-left: -92%;
+    
+        }
+        61.66%{
+            margin-left: -92%;
+        }
+        66.66%{
+            margin-left: -150%;
+        }
+        100%{
+            margin-left: -150%;
+        }
+    
+        
+    } 
+
+    .sec-3slide{
+        width: 60%;
+    }
+    #sec-5{
+        padding: 100px 30px;
+    }
+    .sec-5header{
+        padding: 0;
+    }
+    .sec-5header>h1{
+        /* width: 100%; */
+        font-size: 16px;
+        padding: 0;
+    }
+    #sec-6{
+        border: 1px solid #000;
+        padding: 50px 0px;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows:20vh 20vh 20vh;
+        grid-column-gap: 30px;
+        justify-content: center;
+    }
+
+    
+}
